@@ -22,11 +22,12 @@
 <body>
     <div id="app">
         <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
+            <div class="d-flex" style="padding-left: 30px">
+                <img style="cursor: pointer" src="/svg/leftMenuExpand.svg" alt="">
+                <img src="/svg/YouTube_Logo_2017.svg" style="height: 22px; padding-left: 30px" class="center">
+            </div>
             <div class="container">
                 <a class="navbar-brand d-flex" href="{{ url('/') }}">
-                    <div>
-                        <img src="/svg/YouTube_Logo_2017.svg" style="height: 22px;" class="center">
-                    </div>
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>
@@ -37,6 +38,11 @@
                     <ul class="navbar-nav me-auto">
 
                     </ul>
+
+                    <div class="topnav">
+                        <input type="text" style="padding-left:6px; height:36px" placeholder="Search">
+                    </div>
+                    <button style="height:36px; width:64px; border-color: lightgray; border-width: 1px; border-style: solid;"><img src="/svg/searchIcon.svg" alt=""></button>
 
                     <!-- Right Side Of Navbar -->
                     <ul class="navbar-nav ms-auto">

@@ -11286,3 +11286,26 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+
+.topnav {
+    overflow: hidden;
+
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav input[type=text] {
+    float: right;
+    border-style: solid;
+    border-radius: 2px;
+    border-color: lightgray;
+    border-width: 1px;
+    font-size: 17px;
+}
