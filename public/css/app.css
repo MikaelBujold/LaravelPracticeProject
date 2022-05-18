@@ -104,6 +104,7 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   line-height: 1.2;
 }
 
+
 h1, .h1 {
   font-size: calc(1.35rem + 1.2vw);
 }
@@ -11308,4 +11309,16 @@ textarea.form-control-lg {
     border-color: lightgray;
     border-width: 1px;
     font-size: 17px;
+}
+article {
+    max-width: 600px;
+    margin: auto;
+    text-align: justify;
+    text-justify: inter-character;
+}
+
+article + article {
+    margin-top: 3rem;
+    padding-top: 3rem;
+    border-top: 1px solid #c5c5c5;
 }
