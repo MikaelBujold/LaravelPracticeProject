@@ -1,7 +1,7 @@
 @extends('layouts.app')
 @section('content')
     <article>
-        <h1><a href="/post">First post</a></h1>
+        <h1><a href="/posts/my-first-post">First post</a></h1>
         <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi at odio enim. Aliquam pretium consectetur
             fringilla. Curabitur nisi ex, bibendum eget tincidunt ultrices, elementum vel leo. Pellentesque venenatis et
@@ -16,7 +16,7 @@
     </article>
 
     <article>
-        <h1><a href="/post">Second post</a></h1>
+        <h1><a href="/posts/my-second-post">Second post</a></h1>
         <p>
             In ac ligula at elit lacinia vulputate semper ut odio. In tempor erat quis consequat lacinia. Morbi
             facilisis rutrum libero, ac porttitor ante facilisis in. Fusce viverra massa in ex ornare, sed ullamcorper
@@ -30,7 +30,7 @@
     </article>
 
     <article>
-        <h1><a href="/post">Third post</a></h1>
+        <h1><a href="/posts/my-third-post">Third post</a></h1>
         <p>
             Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In vel tortor cursus,
             convallis dui vitae, porta felis. Sed tincidunt eleifend mi ut rhoncus. Nullam nec dolor metus. Ut
@@ -43,7 +43,7 @@
     </article>
 
     <article>
-        <h1><a href="/post">Fourth post</a></h1>
+        <h1><a href="/posts/my-fourth-post">Fourth post</a></h1>
         <p>
             Nunc tristique lectus leo, vel finibus massa scelerisque eu. Proin vehicula tellus est. Aliquam auctor
             sollicitudin sem vitae porttitor. Nullam auctor, sapien eget interdum pellentesque, quam ligula cursus
