@@ -2,9 +2,9 @@
 @section('content')
     <title>My blog</title>
     @foreach ($posts as $post)
-    <article class="{{ $loop->even ? 'foobar' : '' }}">
+    <article>
         <h1>
-            <a href="/posts/{{ $post->slug }}">
+            <a href="/posts/{{ $post->id }}">
                 {{ $post->title }}
             </a>
         </h1>
