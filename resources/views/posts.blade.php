@@ -1,6 +1,6 @@
 @extends('layouts.app')
 @section('content')
-    <titl>My blog</titl>
+    <title>My blog</title>
     <?php foreach ($posts as $post) : ?>
     <article>
         <h1>
