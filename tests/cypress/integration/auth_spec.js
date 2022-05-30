@@ -24,4 +24,10 @@ describe('Authentication', ()=> {
 
         cy.assertRedirect('/');
     });
+
+    it('visits the dashboard', ()=> {
+        cy.login();
+
+        cy.visit('/').contains('Log Out');
+    });
 });
